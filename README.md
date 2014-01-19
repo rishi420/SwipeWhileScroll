@@ -4,16 +4,11 @@ SwipeWhileScroll
 When tableView is scrolling user can swipe without the need to stop scrolling.
 
 
-
 <p align="center"><img src="https://raw.github.com/rishi420/SwipeWhileScroll/master/github-assets/ScrollAndSwipe.gif"/></p>
 
 
-
-
-
-
-
-This Project was created to answer of a StackOverflow question.
+This Project was created to answer a StackOverflow question. 
+http://stackoverflow.com/q/18994434/1378447
 
 Cross Directional UIScrollViews - Can I Modify the Scrolling Behaviour?
 
@@ -33,13 +28,22 @@ Cross Directional UIScrollViews - Can I Modify the Scrolling Behaviour?
 
 Answer:
 ================
+http://stackoverflow.com/a/21211034/1378447
 
-Import 
+<br>
+How to use on existing project:
+<br>
+Import:
+<br>
 1. ScrollViewSimultaneousGesture
+<br>
 2. TableViewScrollAndSwipe
 
+<br>
 Change:
+<br>
 1. UIScrollView Class to ScrollViewSimultaneousGesture Class
+<br>
 2. UITableView Class to TableViewScrollAndSwipe Class
 
 

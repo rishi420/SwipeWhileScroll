@@ -22,7 +22,7 @@
 - (BOOL)gestureRecognizer:(UIPanGestureRecognizer *)gestureRecognizer
 shouldRecognizeSimultaneouslyWithGestureRecognizer:(UISwipeGestureRecognizer *)otherGestureRecognizer
 {
-    return self.isDecelerating;
+    return self.isDecelerating || self.contentOffset.y < 0 || self.contentOffset.y > MAX(0, self.contentSize.height - self.bounds.size.height);
 }
 
 
